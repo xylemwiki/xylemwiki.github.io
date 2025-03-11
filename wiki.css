@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    margin-left:10%;
+    margin-right:10%;
+}
+img:not(p img){
+    float:right;
+    width: 200px;
+    /* border:1px solid black; */
+    margin:5px;
+}
+.gallery{
+    width: 180px;
+}
+h1{
+    padding:5px;
+    border-bottom: 1px solid gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    color:black;
+    font-weight: 100;
+}
+h2{
+    padding:5px;
+    border-bottom: 1px solid gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color:rgb(47, 44, 44);
+    font-weight: 500;
+}
+p,li{
+    font-size: 19px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px dashed; */
+    color:black;
+    line-height: 1.5;
+}
+i,a{
+    font-style: normal;
+    color:rgb(56, 56, 207);
+    text-decoration:none;
+}
+i:hover,a:hover{
+    text-decoration: underline;
+}
